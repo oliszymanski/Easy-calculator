@@ -1,6 +1,6 @@
 public class Main {
 
-	static int a = 12;			//main parameters
+	static int a = 14;			//main parameters
 	static int b = 7;
 
 	public static void main(String[] args) {
@@ -8,6 +8,7 @@ public class Main {
 		Add addition = new Add();		//creating main objects
 		Sub subtraction = new Sub();
 		multiply multi = new multiply();
+		Div div = new Div();
 
 
 		//addition class test:
@@ -21,5 +22,9 @@ public class Main {
 		//multiplication class test:
 		int multiplying = multi.multiply(a, b);
 		System.out.println("a * b = " + multiplying);
+
+		//division class test:
+		int division = div.divide(a, b);
+		System.out.println("a : b = " + division);
 	}
 }
