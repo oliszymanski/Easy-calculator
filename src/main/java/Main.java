@@ -3,6 +3,7 @@ public class Main {
 	static int a = 14;			//main parameters
 	static int b = 7;
 
+
 	public static void main(String[] args) {
 
 		Add addition = new Add();		//creating main objects
