@@ -11,6 +11,9 @@ public class Main {
 		Div div = new Div();
 
 
+
+		//primary operations..
+
 		//addition class test:
 		int adding = addition.add(a, b);
 		System.out.println("a + b = " + adding);
@@ -19,9 +22,15 @@ public class Main {
 		int subtracting = subtraction.sub(a, b);
 		System.out.println("a - b = " + subtracting);
 
+
+
+
+
+		// bit bigger operations..
+
 		//multiplication class test:
-		int multiplying = multi.multiply(a, b);
-		System.out.println("a * b = " + multiplying);
+		int multiply = multi.mul(a, b);
+		System.out.println("a * b = " + multiply);
 
 		//division class test:
 		int division = div.divide(a, b);
