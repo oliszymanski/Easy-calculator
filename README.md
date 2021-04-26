@@ -1,2 +1,3 @@
 # Easy-calculator
-just some easy project with Java so that I can know what is it like to code in this language
+just some easy project with Java so that I can know what is it like to code in this language. <br>
+No UI or UX here yet...
